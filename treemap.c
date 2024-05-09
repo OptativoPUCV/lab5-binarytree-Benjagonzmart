@@ -230,10 +230,6 @@ Pair * upperBound(TreeMap * tree, void* key)
         }
     
     tree->current = aux;
-    if(aux == NULL) 
-    {
-        return aux->pair; 
-    }
 }
 
 
