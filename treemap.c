@@ -240,7 +240,9 @@ Pair * upperBound(TreeMap * tree, void* key)
             }
             
         }
-    return NULL;
+    tree->current = aux
+    return aux;     
+    
     
     
     

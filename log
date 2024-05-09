@@ -340,3 +340,20 @@ Thu 09 May 2024 07:43:23 PM UTC:
  tests:  26|1
 total_score: 60/70
 31c8efc
+Thu 09 May 2024 07:44:10 PM UTC: 
+ treemap.c | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+In file included from test.c:4:
+treemap.c: In function ‘upperBound’:
+treemap.c:243:24: error: expected ‘;’ before ‘return’
+  243 |     tree->current = aux
+      |                        ^
+      |                        ;
+  244 |     return aux;
+      |     ~~~~~~              
+treemap.c:250:1: error: control reaches end of non-void function [-Werror=return-type]
+  250 | }
+      | ^
+cc1: all warnings being treated as errors
+Compilation failed
+636e80a
