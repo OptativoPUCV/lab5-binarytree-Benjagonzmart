@@ -244,7 +244,16 @@ Pair * upperBound(TreeMap * tree, void* key)
         tree->current = ub;
         
     }
-    return ub == NULL ? NULL : ub->pair;
+    
+    if(ub == NULL)
+    {
+        return NULL;
+    }
+    else
+    {
+        return ub->pair;
+    }
+    
     
     
     
