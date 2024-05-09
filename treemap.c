@@ -235,6 +235,7 @@ Pair * upperBound(TreeMap * tree, void* key)
             }
             
         }
+    }
 
 }
 
