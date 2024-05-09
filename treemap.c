@@ -246,6 +246,7 @@ Pair * upperBound(TreeMap * tree, void* key)
         return aux->pair;
         
     }
+    return NULL;
     
     
     
