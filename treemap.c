@@ -240,16 +240,12 @@ Pair * upperBound(TreeMap * tree, void* key)
                 }
                 else
                 {
-                    aux = aux->right;
-                    
-                }
-                
-                    
+                    aux = aux->right;   
+                }       
             }
             
-            
-            
         }
+    return NULL;
 }
 
 Pair * firstTreeMap(TreeMap * tree)
