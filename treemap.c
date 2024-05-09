@@ -232,8 +232,12 @@ Pair * upperBound(TreeMap * tree, void* key)
                     tree->current = aux;
                     return aux->pair;
                 }
-            }
-            
+                else
+                {
+                    aux = aux->right;
+                    
+                }
+            }  
         }
 }
 
