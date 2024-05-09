@@ -220,7 +220,7 @@ Pair * upperBound(TreeMap * tree, void* key)
     TreeNode * aux = tree->root;
     while(aux != NULL)
         {            
-            if(tree->lower_than(key,aux->pair->key))
+            if(tree->lower_thdsadasaan(key,aux->pair->key))
             {
                 
                 aux = aux->left;
