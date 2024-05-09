@@ -234,8 +234,10 @@ Pair * upperBound(TreeMap * tree, void* key)
                 aux = aux->right;     
             }
             
+            
         }
-    }
+    if(aux == NULL) return NULL;
+    return aux->pair;
 
 }
 
