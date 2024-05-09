@@ -239,6 +239,8 @@ Pair * upperBound(TreeMap * tree, void* key)
                 }
             }  
         }
+    tree->current = aux;
+    
 }
 
 Pair * firstTreeMap(TreeMap * tree)
